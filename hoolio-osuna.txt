@@ -1,0 +1,128 @@
+/*  
+(these  commented tags i have only placed as a practice for myself)
+    
+    Hello world! Hoolio Osuna is finally doing it! 
+    This is my codepen link for project part 2 of of Git for WEb Dev Unit 
+    https://codepen.io/HoolioCoolio/pen/dyoGEep
+
+*/
+
+// Any html tags added in this document are place for Hoolio's practice only just ignore them 
+Questionaaire 
+
+
+1. What is Semantic HTML? 
+    Semantic HTML is using markup tags that better describe 
+    the information in our webpages.  
+
+2. What is HTML used for?
+    HTML or Hypertext Markup Language is used to allow a user to structurely create a webpages
+    and uses tags or elements to creat the different parts of a webpage. For example <p></p> which
+    the element tag for a paragraph. 
+
+3. What is an attribute and where do we put it?
+    A webpage cannot be built with only HTML tags they also require attributes. attributes  
+    are properties within each HTML tag that define specific chacacterists of HTML element.
+    The attribute is usually placed within the opening HTML tag and their used to control that 
+    element in some form such as styling. 
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is a default style tag for styling a title or heading of a webpage or section.
+    It can be used as many times as you would like on a page however normally it is used 
+    as a top level header.
+
+5. Name two tags that have required attributes
+    <input email>
+    <input password>
+    
+6. What do we put in the head of our HTML document?
+    The head is a container where we can place certain data that is not shown to the user
+    such as external stylesheets which hold the information that styles the webpage. 
+    We use the head of the document also to define the documents title.
+    
+7. What is an id?
+    IDs are unique identifiers which are used in javascript or css to perform
+    certain tasks or to specifically style an element of an HTML document.
+    
+8. What elements can I add an id to?
+    You can add an ID to any HTML element.
+
+9. How many times can I use the same id on a page?
+    You can only use an ID name once on one single element of a webpage.
+
+10. What is a class?
+    Classes are similar to IDs in which they can be used to perform certain tasks with 
+    javascript or css but with classes you can use the specified class name with more than
+    one element. The class is used to perform tasks to various elements with the same class name.
+
+11. What elements can I add a class to? 
+    Yes you can add classes to any HTML element
+    
+12. How many times can I use the same class on a page? 
+    You can use it as many times as you'd like.
+    
+13. How do I get my link to open in a new tab?
+    from within the <a tag> you can insert the attribute of target = "_blank". This will
+    open the document in a new tab or window but it will depend on the users browser settings.
+
+14. What is the alt attribute used for?
+    The Alt attribute is just text used to describe the contents of the element. For example an image 
+    would have the alt="So it can describe an image " 
+    
+15. How do I reference an id?
+    a common way to reference to an ID is using getElementByID() function.
+
+16. What is the difference between a section and a div
+    A section defines sections in a document such as the headers, footers, articles, 
+    where as a div is used to divide sections within the document.
+
+17. What is CSS used for?
+    CSS or cascading style sheets are used to hold information that styles the 
+    webpages we create.
+
+18. How to we select an element? Example - every h2 on the page 
+    In CSS  we would use the h2 selector followed by an opening { and closing bracket }.
+
+19. What is the difference between a class and an id? - Give me an example of when 
+I might use each one
+    The differnce between classes and ID is ID is used to better specifically describe an
+    element and can only be one used on one element whereas a class can be used to on multiple 
+    elements. For example you can use the  classes to style all paragraphes simultaneously. With 
+    ID you could use it to style an element on only one elements 
+
+20. How do we select classes in CSS?
+    By calling the class name  with a period first (.classname) followed by an opening and closing
+    curly brackets { }.
+
+21. How do we select a p element with a single class of “human””?
+    you would call the p followed by a period  p. followed by the class name  p.human and then
+    the curly brackets.
+
+22. What is a parent child selector? When would this be useful?
+    Parent child selectors are basically tags that are nested within another tag a parent tag.
+    They are useful when you want to manipulate specifc parts of the website. 
+    
+23. How do you select all links within a div with the class of sidebar?
+    
+24. What is a pseudo selector?
+25. What do we use the change the spacing between lines?
+26. What do we use to change the spacing between letters?
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+28. How do I add a 1px border around my div that is dotted and black?
+29. How do I select everything on the page? 
+30. How do I write a comment in CSS?
+31. How do I find out what file I am in, when I am using the command line? 
+32. Using the command line - how do I see a list of files/folders in my current folder?
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+34. Why should I use version control? 
+35. How often should I commit to github?
+36. What is the command we would use to push our repo up to github? 
+37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+2. What happens when an element is positioned absolutely? 
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+5. In your own words, explain the box model. What is the fix for the box model? 
