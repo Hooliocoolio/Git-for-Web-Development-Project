@@ -102,22 +102,67 @@ I might use each one
     Parent child selectors are basically tags that are nested within another tag a parent tag.
     They are useful when you want to manipulate specifc parts of the website. 
     
-23. How do you select all links within a div with the class of sidebar?
+23. How do you select all links within a div with the class of sidebar? 
+    By nesting the div tag within the nav tag  example: <nav> <div class="sidebar"></div></nav>
+    Then u can use the nav selector
     
 24. What is a pseudo selector?
+    a pseudp selector is a selector that assists in selecting something that cannot
+    be easily selected with a normal selector. for example the :hover is a pseudo selector
+
 25. What do we use the change the spacing between lines?
+    In CSS You would use the { line-height:  } property 
+
 26. What do we use to change the spacing between letters?
+    In CSS You would use the { letter-spacing } property
+
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    In css you would use the { text-transform } property and would not use either one 
+    of these choices you would actually use { text-transform: uppercase; } Capitalize would Capitalize
+    the first letter of every word but uppercase would capitalize everything.
+
 28. How do I add a 1px border around my div that is dotted and black?
+     div {
+         border: 1px dotted black; 
+     }
+
 29. How do I select everything on the page? 
+    * {
+
+    }
+
 30. How do I write a comment in CSS?
-31. How do I find out what file I am in, when I am using the command line? 
+     /*   this is a comment in css  */  
+
+31. How do I find out what file I am in, when I am using the command line?
+     by looking at the text on the left side of the curser at the command prompt
+     
 32. Using the command line - how do I see a list of files/folders in my current folder?
+    use the command ls for lists
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    you would use rm. you must be careful because removing files this way would be permamanent 
+    without warming 
+
 34. Why should I use version control? 
+
+
 35. How often should I commit to github?
+    as much as you can but recommended to when youve reached certain points of the code such as the 
+    end of a certain feature.
+
 36. What is the command we would use to push our repo up to github? 
-37. Walk me through Lambda's git flow. 
+    you would use:  git push 
+
+37. Walk me through Lambda's git flow.
+    1. fork project
+    2. clone project
+    3. add TL or PMs as collaborators
+    4. create a branch with our own name
+    5. add files to be tracked 
+    6. after working on file commit files after you save them
+    7. create a pull request and send link to your TL or PM after
+    8. make sure to add TL as a reviewer so they can merge it. 
 
 Stretch Questions
 
